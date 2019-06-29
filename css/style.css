@@ -899,6 +899,11 @@ button {
     text-decoration: none;
 }
 /* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
+@media (min-height : 1081){
+    .hero-unit {
+        height: 40rem;
+    }
+}
 @media (max-width : 1199px) {
     .hero-caption {
         margin-top: 15vh;
