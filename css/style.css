@@ -45,8 +45,8 @@ Primary Color: #E48632;
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
 @font-face {
-    font-family: 'Anurati';
-    src: url('../fonts/Anurati-Regular.otf');
+    font-family: 'Lithos';
+    src: url('../fonts/Lithos-Pro-Regular.ttf');
 }
 
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
@@ -98,7 +98,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font-size: 2.25rem; /* 36px */
-    font-family: Anurati, sans-serif;
+    font-family: Lithos, sans-serif;
+    font-weight: bolder;
     letter-spacing: 5px;
 } 
 h2 {
@@ -261,6 +262,7 @@ button {
 .loader-logo {
     position: relative;
     color: #FFF;
+    font-weight: bold;
     top: 43%;
 }
 #progress {
@@ -289,7 +291,8 @@ button {
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
 #logo {
-    font-family: Anurati, sans-serif;
+    font-family: Lithos, sans-serif;
+    font-weight: bolder;
     font-size: 1.75rem; /* 28px */;
     letter-spacing: 5px;
     height: 3rem;
@@ -406,9 +409,9 @@ button {
     text-align: right;
 }
 .hero-caption h1 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 3rem;
-    font-family: Raleway, sans-serif;
+    font-family: Lithos, sans-serif;
 }
 
 /* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
@@ -887,7 +890,8 @@ button {
      margin-top: 18%;
 }
 .text-404 h1 {
-    font-family: Anurati, sans-serif;
+    font-family: Lithos, sans-serif;
+    font-weight: bolder;
     font-size: 4rem;
 }
 .text-404 a {
