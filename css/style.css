@@ -395,7 +395,7 @@ button {
     background: url(../images/bg.png);
     background-repeat: repeat;
     min-height: 480px;
-    height: 50vh;
+    height: 20rem;
 }
 /* -Hero Image Caption- */
 .hero-caption {
