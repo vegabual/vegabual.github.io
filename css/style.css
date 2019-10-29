@@ -394,8 +394,8 @@ button {
     background-color: #111;
     background: url(../images/bg.png);
     background-repeat: repeat;
-    min-height: 480px;
-    height: 20rem;
+    min-height: 720px;
+    height: 100vh;
 }
 /* -Hero Image Caption- */
 .hero-caption {
@@ -899,11 +899,6 @@ button {
     text-decoration: none;
 }
 /* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
-@media (min-height : 1081){
-    .hero-unit {
-        height: 40rem;
-    }
-}
 @media (max-width : 1199px) {
     .hero-caption {
         margin-top: 15vh;
